@@ -34,8 +34,7 @@ class Codechef
 		                count+=Long.valueOf(arr[i]-arr[i+1]+1-2);
 		            }
 		        }
-		        else if(arr[i]==arr[i+1])
-		        {
+		        else if(arr[i]==arr[i+1]){
 		            continue;
 		        }
 		    }
