@@ -21,8 +21,7 @@ class Codechef
 		    int p=arr[arr.length-1];
 		    int max=120;
 		    int totalwork=0;
-		    for(int i=0;i<arr.length-1;i++)
-		    {
+		    for(int i=0;i<arr.length-1;i++){
 		        totalwork+=arr[i]*p;
 		    }
 		    if(totalwork<=max)
