@@ -26,7 +26,8 @@ class Codechef
 		        if(arr[i]%2==0){
 		            flag=1;
 		            break;
-		        }else if(arr[i]%2!=0){
+		        }else if(arr[i]%2!=0)
+			{
 		            continue;
 		        }
 		    }
